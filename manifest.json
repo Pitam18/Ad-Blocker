@@ -1,0 +1,16 @@
+{
+    "name": "Ad Blocker",
+    "version": "1.0",
+    "description":"Chrome adblocker extention",
+    "permissions":["webRequest" , "webRequestBlocking","<all_urls>"],
+    "background":
+    {
+      "scripts":["background.js"]
+    },
+   
+    "icons":
+    {
+          "128" :"Ad.png"
+    },
+    "manifest_version": 2
+}
